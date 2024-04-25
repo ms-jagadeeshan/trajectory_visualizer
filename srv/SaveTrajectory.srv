@@ -1,0 +1,4 @@
+string filename
+uint32 duration
+---
+bool result

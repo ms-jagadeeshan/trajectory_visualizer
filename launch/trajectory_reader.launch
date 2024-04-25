@@ -1,0 +1,11 @@
+<launch>
+
+  <arg name="map_frame" default="map" />
+  <arg name="base_frame" default="base_link" />
+
+  <node pkg="trajectory_visualizer" type="trajectory_reader_node" name="trajectory_reader"
+    output="screen">
+    <param name="map_frame" value="$(arg map_frame)" />
+    <param name="base_frame" value="$(arg base_frame)" />
+  </node>
+</launch>

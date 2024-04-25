@@ -1,0 +1,6 @@
+string filename     # Name of the file to load
+int32 start_time    # Time to start from, -1 for starting from file
+int32 end_time      # Time to end from, -1 for till ending of file
+bool loop           # Whether to loop the replay
+---
+bool result
