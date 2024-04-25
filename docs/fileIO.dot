@@ -1,0 +1,18 @@
+
+digraph G {
+    rankdir=TB;
+    node [shape=rectangle, fontname=Arial];
+    edge [fontname=Arial];
+    
+    BaseIO [label="BaseIO\n+ saveTrajectory()\n+ readTrajectory()", shape=record];
+    CsvIO [label="CsvIO\n+ saveTrajectory()\n+ readTrajectory()", shape=record];
+    JsonIO [label="JsonIO\n+ saveTrajectory()\n+ readTrajectory()", shape=record];
+    YamlIO [label="YamlIO\n+ saveTrajectory()\n+ readTrajectory()", shape=record];
+    TrajectoryIO [label="TrajectoryIO\n+ saveTrajectory()\n+ readTrajectory()\n- getSerializer()\n- getSerializer()", shape=record];
+    
+    BaseIO -> CsvIO [arrowhead="onormal"];
+    BaseIO -> JsonIO [arrowhead="onormal"];
+    BaseIO -> YamlIO [arrowhead="onormal"];
+    TrajectoryIO -> BaseIO [arrowhead="onormal"];
+}
+

@@ -25,6 +25,8 @@ Files and Functionality
 - ``transform_listener.cpp``: A wrapper class around tf2 transform listener to get pose.
 - ``transform_broadcaster.cpp``: A wrapper class around tf2 transform broadcaster to send transform from pose.
 
+For more details see `here <./DOCS.rst>`
+
 Nodes
 -----
 - ``trajectory_saver_node``: A merge of ``TrajectorySaver`` (handled by ROS spinner) and ``TrajectoryPublisher`` (runs in the main thread) class.
