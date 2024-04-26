@@ -2,7 +2,7 @@
 File Input/Output Handling
 --------------------------
 
-.. image:: ./fileIO.dot
+.. image:: ./fileIO.png
 
 
 Trajectory Collection
