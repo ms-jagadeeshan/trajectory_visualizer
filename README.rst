@@ -25,7 +25,7 @@ Files and Functionality
 - ``transform_listener.cpp``: A wrapper class around tf2 transform listener to get pose.
 - ``transform_broadcaster.cpp``: A wrapper class around tf2 transform broadcaster to send transform from pose.
 
-For more details see `here <./DOCS.rst>`
+For more details see `here <./DOCS.rst>`_
 
 Nodes
 -----
